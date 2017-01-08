@@ -1,8 +1,8 @@
 'use strict'
 var file = {}
-file.fizzBuzz = function (num){
+var fizzBuzz = function (num){
 	if(num % 3 !== 0 && num%5 !== 0){
-		return number
+		return num
 	}
 	else if (num%3 === 0 && num%5===0){
 		return "FizzBuzz"
@@ -14,3 +14,7 @@ file.fizzBuzz = function (num){
 		return "Buzz"
 	}
 }
+
+module.exports = {
+	fizzBuzz : fizzBuzz
+};
